@@ -1,0 +1,65 @@
+---
+title: "Lab 05"
+author: ''
+subtitle: 'due February 18 at 11:59 PM '
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+editor_options:
+  chunk_output_type: inline
+---
+
+```{r include = FALSE}
+knitr::opts_chunk$set(warning = FALSE)
+```
+
+```{r load-packages, message = FALSE, warning = FALSE}
+library(tidyverse)
+library(knitr)
+``` 
+
+```{r load-data, message = FALSE}
+courage <- read_csv("courage.csv")
+```
+
+# Exercise 1
+
+# Exercise 2
+```{r ex-2}
+# code here
+```
+
+# Exercise 3
+
+```{r seasonal-order}
+# seasonal_courage %>%
+#   mutate(seasonal_category =
+#            factor(seasonal_category,
+#                   levels = c("early", "middle", "late"),
+#                   ordered = TRUE))
+```
+
+# Exercise 4
+
+```{r ex-4}
+```
+
+# Exercise 5
+
+```{r ex-5}
+```
+
+# Exercise 6
+
+*You can use one or both code chunks. Delete this text.*
+
+```{r make-df}
+```
+
+
+```{r ex-5-plot}
+# ggplot(...code here...) + 
+# geom_jitter(width = 0.1, height = 0.1) + 
+# geom_abline(slope=1, intercept=0)
+```
